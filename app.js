@@ -12,7 +12,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect('mongodb+srv://Armit4ge:Marckdomsdds33@cluster0.t3haj.mongodb.net/todolistDB')
+const newLocal = 'mongodb+srv://Armit4ge:Marckdomsdds33@cluster0.t3haj.mongodb.net/todolistDB';
+mongoose.connect(newLocal)
 
 //Schemas
 //--------------------------------------------------------------------
