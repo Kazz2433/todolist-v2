@@ -2,7 +2,8 @@ html {
   background-color: #570A57;
   background-image: -webkit-linear-gradient(65deg, #2E0249 50%, #570A57 50%);
   min-height: 1000px;
-  font-family: 'helvetica neue';
+  font-family: 'Ubuntu', sans-serif;
+  color: #000000;
 }
 
 h1 {
@@ -13,13 +14,13 @@ h1 {
 .box {
   max-width: 400px;
   margin: 50px auto;
-  background: #F806CC;
+  background: #947EC3;
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 #heading {
-  background-color: #A683E3;
+  background-color: #2E0249;
   text-align: center;
 }
 
@@ -48,7 +49,7 @@ p {
   padding: 20px;
   font-size: 20px;
   font-weight: 200;
-  color: #00204a;
+  color: #000000;
 }
 
 form {
@@ -61,7 +62,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
+  background-color: #2E0249;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
